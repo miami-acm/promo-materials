@@ -2,6 +2,7 @@ Promotional Materials for ACM @ Miami University
 ================================================
 
 .. _asciimatics: https://github.com/peterbrittain/asciimatics
+.. _Sphinx: http://www.sphinx-doc.org/en/stable/
 
 Status: WIP
 
@@ -12,3 +13,4 @@ Tools
 -----
 
 * asciimatics_ (See repo for examples)
+* Sphinx_ (See `<docs>`_)
