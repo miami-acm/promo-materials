@@ -1,0 +1,29 @@
+JMP start
+DB "racecar" 
+
+start: 
+MOV A, 7 ;length of the string
+INC A
+MOV B, 2
+
+
+compare: 
+MOV C, [A]
+MOV D, [B]
+CMP C, D
+JNZ no
+INC B
+DEC A
+CMP A, B
+JZ yes
+CMP B, A
+JNC yes
+JMP compare
+
+no:
+MOV [232], 'F'
+HLT
+
+yes:
+MOV [232], 'T'
+HLT
